@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Moon turns every meeting, email thread, and chat into a clear, searchable record — with a recording flow every participant can actually see and control.">
+  <title>Moon — Nothing stays in the dark.</title>
+  
+</head>
+<body>
+
+
+
+<!-- ===================== NAVBAR ===================== -->
+<header class="mnav-header" id="mnavHeader">
+  <div class="mnav-wrap">
+    <a class="mnav-logo" href="#">
+      <svg width="18" height="18" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="#fff"/></svg>
+      <span>Moon</span>
+    </a>
+
+    <nav class="mnav-links" id="mnavLinks" aria-label="Primary navigation">
+      <a href="#mfFeatures">Features</a>
+      <a href="#mprPricing">Pricing</a>
+      <a href="#msSocial">Why Moon</a>
+      <a href="#mfaqSection">FAQ</a>
+      <a href="#mcoContact">Contact</a>
+    </nav>
+
+    <div class="mnav-actions">
+      <a href="#" class="mnav-btn-ghost">Log in</a>
+      <a href="#" class="mnav-btn-primary">Try free</a>
+    </div>
+
+    <button class="mnav-burger" id="mnavBurger" aria-label="Open menu" aria-expanded="false" aria-controls="mnavLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+
+
+
+
+<!-- ===================== HERO ===================== -->
+<section class="mh-hero" id="mhHero">
+  <div class="mh-bg-glow"></div>
+  <div class="mh-wrap">
+    <div class="mh-copy">
+      <span class="mh-eyebrow">AI FOR MEETINGS · EMAIL · CHAT</span>
+      <h1 class="mh-headline">Nothing stays<br><em>in the dark.</em></h1>
+      <p class="mh-sub">Moon turns every meeting, email thread, and chat into a clear, searchable record — with a recording flow every participant can actually see and control.</p>
+      <div class="mh-ctas">
+        <a href="#" class="mh-btn mh-btn-primary">Try Moon free — no card required</a>
+        <a href="#" class="mh-btn mh-btn-ghost">Watch the demo</a>
+      </div>
+      <div class="mh-trust"><span class="mh-trust-dot"></span>Every recording asks first. Always.</div>
+    </div>
+
+    <div class="mh-stage">
+      <div class="mh-call" id="mhCall">
+        <div class="mh-call-head">
+          <div>
+            <div class="mh-call-title">Weekly Product Sync</div>
+            <div class="mh-call-sub">4 participants · 32:14 elapsed</div>
+          </div>
+          <div class="mh-rec-pill" id="mhRecPill"><span class="mh-rec-dot"></span><span>Recording — visible to everyone</span></div>
+        </div>
+
+        <div class="mh-avatars">
+          <div class="mh-av">S</div>
+          <div class="mh-av">R</div>
+          <div class="mh-av">A</div>
+          <div class="mh-av">T</div>
+        </div>
+
+        <div class="mh-modal" id="mhModal">
+          <p class="mh-modal-text">Moon would like to record this meeting — visible to all participants.</p>
+          <div class="mh-modal-actions">
+            <button class="mh-modal-decline">Decline</button>
+            <button class="mh-modal-allow" id="mhAllowBtn">Allow</button>
+          </div>
+          <div class="mh-cursor" id="mhCursor"></div>
+        </div>
+
+        <div class="mh-assistant" id="mhAssistant">
+          <div class="mh-assistant-head">
+            <svg width="16" height="16" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="#fff"/></svg>
+            <span>Moon</span>
+          </div>
+          <div class="mh-assistant-msg" id="mhMsg"></div>
+          <div class="mh-options" id="mhOptions">
+            <div class="mh-option">Watch highlight reel</div>
+            <div class="mh-option">Flashcards from past meetings</div>
+            <div class="mh-option">Pending tasks</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- ===================== FEATURES ===================== -->
+<section class="mf-features" id="mfFeatures">
+  <div class="mf-wrap">
+
+    <div class="mf-header">
+      <span class="mf-eyebrow">WHAT MOON DOES</span>
+      <h2 class="mf-headline">Every conversation, <em>accounted for.</em></h2>
+      <p class="mf-sub">From the moment a meeting starts to the follow-up three days later — Moon keeps the thread intact, visible, and searchable.</p>
+    </div>
+
+    <div class="mf-orbit-scene">
+      <div class="mf-orbit-ring"></div>
+
+      <div class="mf-moon-center">
+        <div class="mf-moon-glow"></div>
+        <div class="mf-moon-core">
+          <svg width="28" height="28" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="#fff"/></svg>
+          <span>Moon</span>
+        </div>
+      </div>
+
+      <!-- 12 o'clock -->
+      <div class="mf-feat mf-feat--12">
+        <div class="mf-feat-inner">
+          <div class="mf-feat-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <div class="mf-feat-title">Consent-First Recording</div>
+        </div>
+        <div class="mf-feat-desc">Visible indicator + one-tap opt-out for every participant, every time.</div>
+      </div>
+
+      <!-- 2 o'clock -->
+      <div class="mf-feat mf-feat--2">
+        <div class="mf-feat-inner">
+          <div class="mf-feat-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+          <div class="mf-feat-title">Smart Summaries</div>
+        </div>
+        <div class="mf-feat-desc">Decisions & next steps, exportable to Notion or doc in one click.</div>
+      </div>
+
+      <!-- 4 o'clock -->
+      <div class="mf-feat mf-feat--4">
+        <div class="mf-feat-inner">
+          <div class="mf-feat-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+          <div class="mf-feat-title">Action Item Tracker</div>
+        </div>
+        <div class="mf-feat-desc">Auto-detected tasks, assigned to an owner and synced to your team's tools.</div>
+      </div>
+
+      <!-- 6 o'clock -->
+      <div class="mf-feat mf-feat--6">
+        <div class="mf-feat-inner">
+          <div class="mf-feat-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          <div class="mf-feat-title">Searchable Transcripts</div>
+        </div>
+        <div class="mf-feat-desc">Jump to any moment said, across every meeting you've ever had.</div>
+      </div>
+
+      <!-- 8 o'clock -->
+      <div class="mf-feat mf-feat--8">
+        <div class="mf-feat-inner">
+          <div class="mf-feat-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></div>
+          <div class="mf-feat-title">Highlight Reels</div>
+        </div>
+        <div class="mf-feat-desc">2-min auto recap of any meeting, shareable in one click.</div>
+      </div>
+
+      <!-- 10 o'clock -->
+      <div class="mf-feat mf-feat--10">
+        <div class="mf-feat-inner">
+          <div class="mf-feat-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg></div>
+          <div class="mf-feat-title">Engagement Insights</div>
+        </div>
+        <div class="mf-feat-desc">Talk-time & sentiment trends so teams run better meetings.</div>
+      </div>
+
+    </div>
+
+    <!-- Use cases -->
+    <div class="mf-usecases">
+      <div class="mf-usecases-label">BUILT FOR</div>
+      <div class="mf-usecases-grid">
+        <div class="mf-usecase"><span class="mf-usecase-icon">◎</span><div><div class="mf-usecase-title">Sales Teams</div><div class="mf-usecase-desc">CRM-ready call notes and coaching insight — no note-taking mid-pitch.</div></div></div>
+        <div class="mf-usecase"><span class="mf-usecase-icon">◎</span><div><div class="mf-usecase-title">Product & Cross-functional</div><div class="mf-usecase-desc">Decisions from standups stay attached to the meeting, not scattered in notes.</div></div></div>
+        <div class="mf-usecase"><span class="mf-usecase-icon">◎</span><div><div class="mf-usecase-title">Recruiting</div><div class="mf-usecase-desc">Structured interview summaries instead of memory-dependent debriefs.</div></div></div>
+        <div class="mf-usecase"><span class="mf-usecase-icon">◎</span><div><div class="mf-usecase-title">Remote & Async Teams</div><div class="mf-usecase-desc">A highlight reel replaces "watch the full recording" as the default catch-up.</div></div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ===================== SOCIAL PROOF ===================== -->
+<section class="ms-social" id="msSocial">
+  <div class="ms-wrap">
+
+    <div class="ms-header">
+      <span class="ms-eyebrow">WHY TEAMS SWITCH</span>
+      <h2 class="ms-headline">Trust isn't a feature. <em>It's the whole point.</em></h2>
+      <p class="ms-sub">Teams don't adopt Moon because it's clever. They adopt it because nobody on the call has to wonder what's being kept.</p>
+    </div>
+
+    <div class="ms-test-frame">
+      <div class="ms-test-track">
+
+        <div class="ms-test-card">
+          <div class="ms-test-quote-mark">&ldquo;</div>
+          <p class="ms-test-quote">We stopped arguing about what was promised on a sales call. It's timestamped, searchable, and nobody had to take notes mid-pitch.</p>
+          <div class="ms-test-foot">
+            <div class="ms-avatar">D</div>
+            <div>
+              <div class="ms-test-name">Dana Whitfield</div>
+              <div class="ms-test-role">Sales Lead, Brightline</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ms-test-card">
+          <div class="ms-test-quote-mark">&ldquo;</div>
+          <p class="ms-test-quote">Legal actually likes a recording tool for once. Every participant sees the same consent banner I do — there's nothing to explain after the fact.</p>
+          <div class="ms-test-foot">
+            <div class="ms-avatar">M</div>
+            <div>
+              <div class="ms-test-name">Marcus Oyelaran</div>
+              <div class="ms-test-role">Ops Manager, Fernwell</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ms-test-card">
+          <div class="ms-test-quote-mark">&ldquo;</div>
+          <p class="ms-test-quote">I haven't sat through a full recording in weeks. The highlight reel gets me caught up on a standup in under two minutes.</p>
+          <div class="ms-test-foot">
+            <div class="ms-avatar">R</div>
+            <div>
+              <div class="ms-test-name">Renata Kowalski</div>
+              <div class="ms-test-role">Director of Product, Hatch Studio</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ms-test-card">
+          <div class="ms-test-quote-mark">&ldquo;</div>
+          <p class="ms-test-quote">Compliance review used to take a week of back-and-forth emails. Now it's just the transcript link.</p>
+          <div class="ms-test-foot">
+            <div class="ms-avatar">N</div>
+            <div>
+              <div class="ms-test-name">Naomi Castellano</div>
+              <div class="ms-test-role">Head of Compliance, Larkspur Health</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ms-test-card">
+          <div class="ms-test-quote-mark">&ldquo;</div>
+          <p class="ms-test-quote">Our execs finally watch the highlight reel instead of skipping straight to my Slack recap.</p>
+          <div class="ms-test-foot">
+            <div class="ms-avatar">T</div>
+            <div>
+              <div class="ms-test-name">Theo Marchetti</div>
+              <div class="ms-test-role">Chief of Staff, Verdant Systems</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ms-test-card">
+          <div class="ms-test-quote-mark">&ldquo;</div>
+          <p class="ms-test-quote">Async stand-ups stopped being guesswork once everyone could see who'd actually opted in.</p>
+          <div class="ms-test-foot">
+            <div class="ms-avatar">P</div>
+            <div>
+              <div class="ms-test-name">Priya Anand</div>
+              <div class="ms-test-role">Engineering Manager, Northloop</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- duplicate set — required for a seamless infinite loop, hidden from assistive tech -->
+        <div class="ms-test-card" aria-hidden="true">
+          <div class="ms-test-quote-mark">&ldquo;</div>
+          <p class="ms-test-quote">We stopped arguing about what was promised on a sales call. It's timestamped, searchable, and nobody had to take notes mid-pitch.</p>
+          <div class="ms-test-foot">
+            <div class="ms-avatar">D</div>
+            <div>
+              <div class="ms-test-name">Dana Whitfield</div>
+              <div class="ms-test-role">Sales Lead, Brightline</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ms-test-card" aria-hidden="true">
+          <div class="ms-test-quote-mark">&ldquo;</div>
+          <p class="ms-test-quote">Legal actually likes a recording tool for once. Every participant sees the same consent banner I do — there's nothing to explain after the fact.</p>
+          <div class="ms-test-foot">
+            <div class="ms-avatar">M</div>
+            <div>
+              <div class="ms-test-name">Marcus Oyelaran</div>
+              <div class="ms-test-role">Ops Manager, Fernwell</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ms-test-card" aria-hidden="true">
+          <div class="ms-test-quote-mark">&ldquo;</div>
+          <p class="ms-test-quote">I haven't sat through a full recording in weeks. The highlight reel gets me caught up on a standup in under two minutes.</p>
+          <div class="ms-test-foot">
+            <div class="ms-avatar">R</div>
+            <div>
+              <div class="ms-test-name">Renata Kowalski</div>
+              <div class="ms-test-role">Director of Product, Hatch Studio</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ms-test-card" aria-hidden="true">
+          <div class="ms-test-quote-mark">&ldquo;</div>
+          <p class="ms-test-quote">Compliance review used to take a week of back-and-forth emails. Now it's just the transcript link.</p>
+          <div class="ms-test-foot">
+            <div class="ms-avatar">N</div>
+            <div>
+              <div class="ms-test-name">Naomi Castellano</div>
+              <div class="ms-test-role">Head of Compliance, Larkspur Health</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ms-test-card" aria-hidden="true">
+          <div class="ms-test-quote-mark">&ldquo;</div>
+          <p class="ms-test-quote">Our execs finally watch the highlight reel instead of skipping straight to my Slack recap.</p>
+          <div class="ms-test-foot">
+            <div class="ms-avatar">T</div>
+            <div>
+              <div class="ms-test-name">Theo Marchetti</div>
+              <div class="ms-test-role">Chief of Staff, Verdant Systems</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ms-test-card" aria-hidden="true">
+          <div class="ms-test-quote-mark">&ldquo;</div>
+          <p class="ms-test-quote">Async stand-ups stopped being guesswork once everyone could see who'd actually opted in.</p>
+          <div class="ms-test-foot">
+            <div class="ms-avatar">P</div>
+            <div>
+              <div class="ms-test-name">Priya Anand</div>
+              <div class="ms-test-role">Engineering Manager, Northloop</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="ms-table-section">
+      <div class="ms-table-label">MOON VS. TYPICAL AI NOTETAKERS</div>
+
+      <div class="ms-table">
+        <div class="ms-row ms-row-head">
+          <div class="ms-col-label"></div>
+          <div class="ms-col-moon">Moon</div>
+          <div class="ms-col-other">Typical tools</div>
+        </div>
+
+        <div class="ms-row">
+          <div class="ms-col-label">Recording indicator visible to all participants</div>
+          <div class="ms-col-moon"><svg class="ms-check" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <div class="ms-col-other">Host only</div>
+        </div>
+
+        <div class="ms-row">
+          <div class="ms-col-label">Consent requested from everyone, not just the host</div>
+          <div class="ms-col-moon"><svg class="ms-check" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <div class="ms-col-other">No</div>
+        </div>
+
+        <div class="ms-row">
+          <div class="ms-col-label">One-tap decline, mid-meeting</div>
+          <div class="ms-col-moon"><svg class="ms-check" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <div class="ms-col-other">Rarely</div>
+        </div>
+
+        <div class="ms-row">
+          <div class="ms-col-label">Data auto-deleted if a participant declines</div>
+          <div class="ms-col-moon"><svg class="ms-check" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <div class="ms-col-other">No</div>
+        </div>
+
+        <div class="ms-row">
+          <div class="ms-col-label">Searchable across meetings, email, and chat</div>
+          <div class="ms-col-moon"><svg class="ms-check" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <div class="ms-col-other">Meetings only</div>
+        </div>
+
+        <div class="ms-row">
+          <div class="ms-col-label">Highlight reels for async catch-up</div>
+          <div class="ms-col-moon"><svg class="ms-check" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <div class="ms-col-other">Some tools</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ===================== PRICING + CONTACT + CTA BANNER ===================== -->
+<section class="mpr-pricing" id="mprPricing">
+  <div class="mpr-wrap">
+
+    <div class="mpr-header">
+      <span class="mpr-eyebrow">PRICING</span>
+      <h2 class="mpr-headline">A free tier built for <em>your actual week.</em></h2>
+      <p class="mpr-sub">No 5-meeting cap, no 10-seat minimum to unlock the basics. Pay for more only once your team genuinely needs it.</p>
+
+      <div class="mpr-toggle" id="mprToggle">
+        <button class="mpr-toggle-opt mpr-toggle-active" data-mode="annual">Annual <span class="mpr-save">save ~20%</span></button>
+        <button class="mpr-toggle-opt" data-mode="monthly">Monthly</button>
+      </div>
+    </div>
+
+    <div class="mpr-grid">
+
+      <div class="mpr-card">
+        <div class="mpr-card-head">
+          <div class="mpr-plan-name">Free</div>
+          <div class="mpr-plan-desc">For trying Moon on a real week, not a demo.</div>
+        </div>
+        <div class="mpr-price"><span class="mpr-price-num">$0</span><span class="mpr-price-unit">/mo</span></div>
+        <a href="#" class="mpr-cta mpr-cta-ghost">Start free</a>
+        <ul class="mpr-features">
+          <li>Unlimited meetings — no monthly cap</li>
+          <li>Smart summaries &amp; action items</li>
+          <li>14-day searchable history</li>
+          <li>3 highlight reels / month</li>
+          <li>1 workspace</li>
+        </ul>
+      </div>
+
+      <div class="mpr-card mpr-card-featured">
+        <div class="mpr-badge">Most teams start here</div>
+        <div class="mpr-card-head">
+          <div class="mpr-plan-name">Team</div>
+          <div class="mpr-plan-desc">For teams who want to collaborate inside the tool, not around it.</div>
+        </div>
+        <div class="mpr-price">
+          <span class="mpr-price-num mpr-price-annual">$14</span>
+          <span class="mpr-price-num mpr-price-monthly mpr-hide">$18</span>
+          <span class="mpr-price-unit">/seat/mo</span>
+        </div>
+        <a href="#" class="mpr-cta mpr-cta-solid">Try Team free for 14 days</a>
+        <ul class="mpr-features">
+          <li>Everything in Free</li>
+          <li>Unlimited history &amp; highlight reels</li>
+          <li>Shared workspace + shared reels</li>
+          <li>Engagement insights (talk-time, sentiment)</li>
+          <li>Calendar, Notion &amp; Slack sync</li>
+          <li>No seat minimum — starts at 1</li>
+        </ul>
+      </div>
+
+      <div class="mpr-card">
+        <div class="mpr-card-head">
+          <div class="mpr-plan-name">Business</div>
+          <div class="mpr-plan-desc">For orgs that need admin controls and a compliance story.</div>
+        </div>
+        <div class="mpr-price">
+          <span class="mpr-price-num mpr-price-annual">$28</span>
+          <span class="mpr-price-num mpr-price-monthly mpr-hide">$34</span>
+          <span class="mpr-price-unit">/seat/mo</span>
+        </div>
+        <a href="#" class="mpr-cta mpr-cta-ghost">Talk to sales</a>
+        <ul class="mpr-features">
+          <li>Everything in Team</li>
+          <li>SSO/SAML &amp; domain capture</li>
+          <li>Admin controls &amp; audit log</li>
+          <li>Custom data retention policy</li>
+          <li>Priority support</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="mpr-footnote">All plans include consent-first recording for every participant. Always. No tier turns it off.</p>
+  </div>
+</section>
+
+<section class="mco-contact" id="mcoContact">
+  <div class="mco-wrap">
+    <div class="mco-copy">
+      <span class="mco-eyebrow">ROLLING OUT TO A TEAM?</span>
+      <h2 class="mco-headline">Let's figure out <em>what you actually need.</em></h2>
+      <p class="mco-sub">No seat-minimum sales calls. Tell us your team size and what you're trying to fix, and we'll tell you honestly whether Team or Business is the right fit — or whether Free covers it for now.</p>
+      <ul class="mco-points">
+        <li><span class="mco-dot"></span>Usually a reply within one business day</li>
+        <li><span class="mco-dot"></span>No obligation, no seat-count pressure</li>
+        <li><span class="mco-dot"></span>Happy to do a 15-minute walkthrough first</li>
+      </ul>
+    </div>
+
+    <form class="mco-form" id="mcoForm">
+      <div class="mco-field">
+        <label for="mcoName">Name</label>
+        <input type="text" id="mcoName" placeholder="Jordan Ellis">
+      </div>
+      <div class="mco-field">
+        <label for="mcoEmail">Work email</label>
+        <input type="email" id="mcoEmail" placeholder="jordan@company.com">
+      </div>
+      <div class="mco-field">
+        <label for="mcoSize">Team size</label>
+        <select id="mcoSize">
+          <option>Just me</option>
+          <option>2–10</option>
+          <option>11–50</option>
+          <option>51–200</option>
+          <option>200+</option>
+        </select>
+      </div>
+      <div class="mco-field">
+        <label for="mcoMsg">What are you trying to fix?</label>
+        <textarea id="mcoMsg" rows="4" placeholder="e.g. our team keeps losing decisions made in standups..."></textarea>
+      </div>
+      <button type="submit" class="mco-submit">Send message</button>
+      <p class="mco-formnote" id="mcoNote"></p>
+    </form>
+  </div>
+</section>
+
+<section class="mcb-cta" id="mcbCta">
+  <div class="mcb-wrap">
+    <h2 class="mcb-headline">Ready to stop wondering<br><em>what's being kept?</em></h2>
+    <div class="mcb-ctas">
+      <a href="#" class="mcb-btn mcb-btn-primary">Try Moon free — no card required</a>
+      <a href="#" class="mcb-btn mcb-btn-ghost">Watch the demo</a>
+    </div>
+    <div class="mcb-trust"><span class="mcb-trust-dot"></span>Every recording asks first. Always.</div>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="mfaq-section" id="mfaqSection">
+  <div class="mfaq-wrap">
+
+    <div class="mfaq-header">
+      <span class="mfaq-eyebrow">QUESTIONS WE ACTUALLY GET</span>
+      <h2 class="mfaq-headline">Consent, privacy, and<br><em>the stuff that matters.</em></h2>
+      <p class="mfaq-sub">We built the consent flow before anything else. Here's exactly how it works.</p>
+    </div>
+
+    <div class="mfaq-grid">
+
+      <div class="mfaq-col">
+
+        <div class="mfaq-item">
+          <button class="mfaq-q" aria-expanded="false">
+            <span>What happens if someone declines the recording?</span>
+            <svg class="mfaq-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="mfaq-a" hidden>
+            <p>The recording stops for everyone. Moon doesn't keep a partial recording or a transcript up to the point of decline — if anyone opts out, nothing is saved. The meeting continues normally; Moon just steps back and goes silent.</p>
+          </div>
+        </div>
+
+        <div class="mfaq-item">
+          <button class="mfaq-q" aria-expanded="false">
+            <span>Who can see the recording indicator?</span>
+            <svg class="mfaq-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="mfaq-a" hidden>
+            <p>Every participant in the call — not just the host. This is the thing we built first and the thing we'll never walk back. There's no silent recording mode, no "host-only" visibility setting, no way to hide it. If Moon is in a meeting, everyone in the meeting knows it.</p>
+          </div>
+        </div>
+
+        <div class="mfaq-item">
+          <button class="mfaq-q" aria-expanded="false">
+            <span>Can someone delete themselves from a recording after the fact?</span>
+            <svg class="mfaq-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="mfaq-a" hidden>
+            <p>Yes. Any participant — not just the host — can request removal of their contributions from a transcript or recording after the fact. Removal requests are processed within 48 hours. The summary and action items for the meeting are updated to reflect the gap, and the requesting participant is notified when it's done.</p>
+          </div>
+        </div>
+
+        <div class="mfaq-item">
+          <button class="mfaq-q" aria-expanded="false">
+            <span>Does Moon train AI models on our meeting data?</span>
+            <svg class="mfaq-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="mfaq-a" hidden>
+            <p>No. Your recordings, transcripts, and summaries are never used to train AI models — ours or anyone else's. Your data is used to generate your own outputs and nothing more. This applies to all plans, including Free.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mfaq-col">
+
+        <div class="mfaq-item">
+          <button class="mfaq-q" aria-expanded="false">
+            <span>How is Moon different from tools that already do consent?</span>
+            <svg class="mfaq-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="mfaq-a" hidden>
+            <p>Most tools show the host a consent option and call it done. Moon shows every participant the same indicator, at the same moment, with a one-tap opt-out that actually stops the recording for everyone — not just excludes that person's audio. It's the difference between disclosure and genuine consent.</p>
+          </div>
+        </div>
+
+        <div class="mfaq-item">
+          <button class="mfaq-q" aria-expanded="false">
+            <span>What's actually included in the free tier?</span>
+            <svg class="mfaq-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="mfaq-a" hidden>
+            <p>Unlimited meetings — no monthly cap — with smart summaries and action items for each one. You get a 14-day searchable history and 3 highlight reels per month. The free tier is meant to be a real evaluation of Moon on your actual week, not a capped demo that forces a decision before you've seen it work.</p>
+          </div>
+        </div>
+
+        <div class="mfaq-item">
+          <button class="mfaq-q" aria-expanded="false">
+            <span>Does Moon work if I'm not the meeting host?</span>
+            <svg class="mfaq-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="mfaq-a" hidden>
+            <p>Yes, with one important detail: Moon will still ask all participants for consent, and someone needs to allow it. If you're a guest in someone else's meeting, Moon will surface the consent prompt to everyone present, including the host. If anyone declines, Moon steps back — even if you invited it.</p>
+          </div>
+        </div>
+
+        <div class="mfaq-item">
+          <button class="mfaq-q" aria-expanded="false">
+            <span>Which meeting platforms does Moon support?</span>
+            <svg class="mfaq-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="mfaq-a" hidden>
+            <p>Zoom, Google Meet, and Microsoft Teams are fully supported on all plans. Email summarization works with Gmail and Outlook. Slack integration is available on Team and above. If your stack is different, reach out — we track which platforms to prioritize next based on what teams actually ask for.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="mff-footer" id="mffFooter">
+  <div class="mff-wrap">
+
+    <div class="mff-row1">
+      <div class="mff-brand">
+        <div class="mff-logo">
+          <svg width="20" height="20" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z" fill="#fff"/></svg>
+          <span>Moon</span>
+        </div>
+        <p class="mff-tagline">Nothing stays in the dark. Every meeting, email thread, and chat — turned into a clear, searchable record.</p>
+
+        <div class="mff-contact">
+          <a class="mff-contact-row" href="mailto:hello@whatbytes.com">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            hello@whatbytes.com
+          </a>
+          <div class="mff-contact-row">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s7-7.2 7-12a7 7 0 1 0-14 0c0 4.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            357 Bay St., Toronto, ON M5H 4A6, Canada
+          </div>
+        </div>
+
+        <div class="mff-social">
+          <a class="mff-social-icon" href="https://www.linkedin.com/company/whatbytes/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+
+      <div class="mff-newsletter">
+        <div class="mff-col-title">Stay in the loop</div>
+        <p class="mff-newsletter-sub">Product updates, no spam.</p>
+        <form class="mff-newsletter-form" id="mffForm">
+          <input type="email" placeholder="you@company.com" required>
+          <button type="submit" aria-label="Subscribe">→</button>
+        </form>
+        <p class="mff-newsletter-note" id="mffNote"></p>
+      </div>
+    </div>
+
+    <div class="mff-row2">
+      <div class="mff-col">
+        <div class="mff-col-title">Product</div>
+        <a href="#mfFeatures">Features</a>
+        <a href="#mprPricing">Pricing</a>
+        <a href="#">Demo</a>
+        <a href="#">Integrations</a>
+      </div>
+      <div class="mff-col">
+        <div class="mff-col-title">Company</div>
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+      </div>
+      <div class="mff-col">
+        <div class="mff-col-title">Resources</div>
+        <a href="#">Docs</a>
+        <a href="#">Support</a>
+        <a href="#">Status</a>
+      </div>
+      <div class="mff-col">
+        <div class="mff-col-title">Legal</div>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Security</a>
+      </div>
+    </div>
+
+    <div class="mff-bottom">
+      <span>© 2026 WhatBytes Technologies. All rights reserved.</span>
+      <span class="mff-bottom-sep">·</span>
+      <span class="mff-credit">Moon is a product by WhatBytes.</span>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<!-- ===================== PRICING CSS + JS (restored) ===================== -->
+
+
+</body>
+</html>
